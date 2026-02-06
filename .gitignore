@@ -66,3 +66,8 @@ Thumbs.db
 htmlcov/
 .tox/
 
+# Документация и служебные файлы
+CONTRIBUTING.md
+DEPLOY.md
+PRE_DEPLOY_CHECKLIST.md
+
