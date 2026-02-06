@@ -36,9 +36,9 @@ dev = [
 ]
 
 [project.urls]
-homepage = "https://github.com/yourusername/robot-pose-helper"
-repository = "https://github.com/yourusername/robot-pose-helper"
-issues = "https://github.com/yourusername/robot-pose-helper/issues"
+homepage = "https://github.com/AlikeOrk/robot-pose-helper"
+repository = "https://github.com/AlikeOrk/robot-pose-helper"
+issues = "https://github.com/AlikeOrk/robot-pose-helper"
 
 [tool.black]
 line-length = 88
