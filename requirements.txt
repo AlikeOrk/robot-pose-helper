@@ -1,0 +1,6 @@
+mediapipe==0.10.32
+opencv-python==4.13.0.92
+numpy
+pandas
+scikit-learn
+joblib
