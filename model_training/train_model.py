@@ -180,7 +180,7 @@ def main() -> None:
         sys.exit(1)
 
     logger.info("Модель сохранена в: %s", MODEL_PATH)
-    logger.info("Размер окна истории: %d тиков", lookback_window)
+    logger.info("Размер окна истории: %d тиков", metrics["lookback_window"])
     logger.info("Средняя абсолютная ошибка (MAE): %.2f градусов", metrics["mae"])
     logger.info("Средняя ошибка в процентах: %.2f%%", metrics["mae_percent"])
     logger.info("RMSE: %.2f градусов", metrics["rmse"])
