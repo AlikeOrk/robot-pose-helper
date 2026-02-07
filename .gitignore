@@ -29,7 +29,6 @@ env.bak/
 venv.bak/
 
 # Данные и модели
-data.csv
 models/*.joblib
 models/*.json
 models/pose_landmarker_full.task
