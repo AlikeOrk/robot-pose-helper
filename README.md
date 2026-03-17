@@ -9,6 +9,28 @@
 
 Внутри используется `mediapipe` для детекции позы, `opencv-python` для работы с камерой и отрисовки скелета, а также `scikit-learn` для простой MLP‑модели.
 
+### Быстрый старт
+
+1) Сбор данных (запись углов в `data.csv`):
+
+```bash
+python -m model_training.capture_angles
+```
+
+2) Обучение модели (создаст файлы в `models/`):
+
+```bash
+python -m model_training.train_model
+```
+
+3) Запуск предсказаний в реальном времени:
+
+```bash
+python -m model_runtime.realtime_predict
+```
+
+**Последнее обновление**: 2026‑03‑17.
+
 ### Требования
 
 - Python 3.10+.
